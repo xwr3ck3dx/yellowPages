@@ -1,0 +1,30 @@
+$colors:(
+    primary:#FFCD00,
+    secondary: #000000,
+    third: #FFFFFF,
+    fourth: #F3F3F3,
+    fifth: #0B0B0B
+);
+
+html,body{
+    background: map-get($colors, fourth );
+
+}
+.header{
+    background: map-get($colors,primary);
+    div{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .menu{
+        
+        .navbar{
+            a{
+                color: map-get($colors, secondary)
+            }
+        }
+    }
+    .jumbotron{
+        background:map-get($colors,primary);
+    }
+}

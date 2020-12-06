@@ -1,0 +1,21 @@
+html, body {
+  background: #F3F3F3;
+}
+
+.header {
+  background: #FFCD00;
+}
+
+.header div {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header .menu .navbar a {
+  color: #000000;
+}
+
+.header .jumbotron {
+  background: #FFCD00;
+}
+/*# sourceMappingURL=main.css.map */
