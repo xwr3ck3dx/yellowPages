@@ -12,10 +12,7 @@ html,body{
 }
 .header{
     background: map-get($colors,primary);
-    div{
-        max-width: 1200px;
-        margin: 0 auto;
-    }
+    
     .menu{
         
         .navbar{
@@ -24,7 +21,84 @@ html,body{
             }
         }
     }
+    .landing{
+        
+    }
     .jumbotron{
         background:map-get($colors,primary);
+        // margin-bottom:2em;
+        h1{
+            text-align: center;
+            margin-bottom:1em;
+        }
+        .sub-text{
+            font-size:0.9em;
+            font-weight: 200;
+            font-style: italic;
+            display: block;
+            text-align: center;
+            padding: 0 2em;
+            
+        }
+    }
+}
+.header > div{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.card-body{
+     padding:0.5em;
+}
+
+.btn.btn-success{
+    background-color: map-get($colors,primary);
+    border:none;
+    outline:none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.card{
+    border-radius:0;
+    // margin-bottom:1em;
+}
+.content-main{
+    padding:1em 10em;
+    max-width:100%!important;
+
+    background:map-get($colors,third);
+    .feature-main{
+        background: url("../img/banner.jpg");
+        min-height:300px;
+        background-size: 100% ;
+        position: relative;
+        .feature-text{
+            position: absolute;
+            width:100%;
+            height:100%;
+            text-align:center;
+            background:rgba(map-get($colors,fifth),0.7);
+            padding:10% 0; 
+            .center-text{
+               
+                text-align: center;
+                color:map-get($colors,third)
+            }
+            .btn.btn-success{
+                
+            }
+
+            
+        }
     }
 }
