@@ -178,6 +178,109 @@ html,body{
     }
     
 }
+.details{
+        max-width: 1200px;
+        margin:0 auto;
+        margin-top: 2em;
+        .detail-content{
+            .banner{
+                background-image: url("../img/Chandragiri-Hills-Mountain-Views-990x490.jpg");
+                background-size: cover;
+                background-position: 0 -30;
+                
+                .overlay{
+                    background: fade-out($color: map-get($colors,fifth), $amount: 0.3);
+                    padding:3em 5em;
+                    text-align: center;
+                    .img-container{
+                        max-width: 20%;
+                        margin:0 auto;
+                        background: fade-out($color: white, $amount: 0.1);
+                        border-radius:5%;
+                        .img-logo{
+                            max-width: 100%;
+                            height:auto;
+                        }
+                        
+                    }
+                    .business{
+                        .business-name{
+                            color:map-get($map: $colors, $key: third);
+                            display:block;
+                            margin-top:0.3em;
+                            font-size:2em;
+                        }
+                        .business-location{
+                            color: map-get($map: $colors, $key: third);
+                            font-size:1.2em;
+                            .fa-map-marker-alt{
+                                margin-right:10px;
+                            }
+                        }
+                    }
+                }
+                
+            }
+            .description{
+                margin-top:0.5em;
+                & > .title{
+                    font-size: 1.7em;
+                    margin-bottom:0.3em;
+                    font-weight: 600;
+                    padding:0.3em;
+                    background:map-get($map: $colors, $key: primary);
+                    text-align: center;
+                    vertical-align: middle;
+                    
+                }
+                .desc{
+                   
+                }
+                .contacts-div{
+                    margin-top:1em;
+                    & > .contact-title{
+                        font-size:1.4em;
+                        margin-bottom:0.5em;
+                        background:map-get($map: $colors, $key: primary);
+                        text-align: center;
+                    }
+                    .contacts{
+                        font-size:1.3em;
+                        span{
+                            display: flex;
+                            width:100%;
+                            margin-bottom:0.3em;
+                            line-height: 2em;
+                            // vertical-align: middle;
+                            i{
+                                color:map-get($map: $colors, $key: primary);
+                                margin-right:1em;
+                                font-size:2em;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .ad-temp-2{
+            float: right;
+            padding:1em;
+            padding-top:0;
+            .img-container{
+                img{
+                    width:100%;
+                    height:auto;
+                }
+                margin-bottom:10px;
+            }
+        }
+}
+.details-page{
+    .jumbotron{
+        padding:2rem 2rem;
+    }
+}
 .content-bottom{
         max-width: 1200px;
         margin:0 auto;
