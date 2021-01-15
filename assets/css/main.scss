@@ -24,9 +24,7 @@ html,body{
             }
         }
     }
-    .landing{
-        
-    }
+    
     .jumbotron{
         background:map-get($colors,primary);
         margin-bottom:0;
@@ -223,9 +221,7 @@ html,body{
                     vertical-align: middle;
                     
                 }
-                .desc{
-                   
-                }
+                
                 .contacts-div{
                     margin-top:1em;
                     & > .contact-title{
@@ -509,16 +505,19 @@ html,body{
     }
     
     .social:hover {
+        transform: scale(1.1);
         -webkit-transform: scale(1.1);
         -moz-transform: scale(1.1);
         -o-transform: scale(1.1);
     }
     .social {
+        transform: scale(0.8);
         -webkit-transform: scale(0.8);
         /* Browser Variations: */
         
         -moz-transform: scale(0.8);
         -o-transform: scale(0.8);
+        transition-duration:0.2s;
         -webkit-transition-duration: 0.2s;
         -moz-transition-duration: 0.2s;
         -o-transition-duration: 0.2s;
