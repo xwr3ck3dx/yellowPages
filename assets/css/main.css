@@ -390,6 +390,72 @@ html, body {
   background: #00a199;
 }
 
+.search-page .jumbotron {
+  padding: 2em;
+}
+
+.search-page .search.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+.search-page .search.main-container .search-content .search-title {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #0a1c2e;
+  padding-bottom: 0.5em;
+  color: #e4b706;
+}
+
+.search-page .search.main-container .search-content .search-results [class^="col-"] {
+  padding: 0;
+}
+
+.search-page .search.main-container .search-content .search-results .result {
+  background: rgba(11, 11, 11, 0.03);
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 4px 4px rgba(11, 11, 11, 0.06);
+          box-shadow: 1px 1px 4px 4px rgba(11, 11, 11, 0.06);
+  cursor: pointer;
+  margin-bottom: 1.3em;
+  border: 1px solid rgba(11, 11, 11, 0.09);
+}
+
+.search-page .search.main-container .search-content .search-results .img-container {
+  padding: 1.2em;
+}
+
+.search-page .search.main-container .search-content .search-results .img-container .img-logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.search-page .search.main-container .search-content .search-results .result-container {
+  padding: 1em 0;
+}
+
+.search-page .search.main-container .search-content .search-results .result-container .result-title {
+  display: block;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.search-page .search.main-container .search-content .search-results .result-container .result-location {
+  display: block;
+}
+
+.search-page .search.main-container .search-content .search-results .result-container .result-location i {
+  margin-right: 0.6em;
+  color: #FFCD00;
+}
+
+.search-page .search.main-container .search-content .search-results .result-container .result-description {
+  display: block;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
 .ad-temp-1 {
   /* display 3 */
 }

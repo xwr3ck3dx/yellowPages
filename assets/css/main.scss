@@ -369,6 +369,69 @@ html,body{
         
     }
 }
+
+.search-page{
+    .jumbotron{
+        padding:2em;
+    }
+    .search.main-container{
+        max-width: 1200px;
+        margin:0 auto;
+        margin-top:2em;
+        .search-content{
+            .search-title{
+                font-size:1.5em;
+                margin-bottom:1em;
+                border-bottom:1px solid map-get($map: $colors, $key: sixth);
+                padding-bottom:0.5em;
+                color:#e4b706
+            }
+            
+            .search-results{
+                [class^="col-"]{
+                    padding:0;
+                }
+                .result{
+                    background:fade-out($color: map-get($colors,fifth), $amount: 0.97);
+                    border-radius: 10px;
+                    box-shadow: 1px 1px 4px 4px fade-out($color: map-get($colors,fifth), $amount: 0.94);
+                    cursor: pointer;
+                    margin-bottom:1.3em;
+                    border: 1px solid fade-out($color: map-get($colors,fifth), $amount: 0.91);
+                }
+                .img-container{
+                    padding:1.2em;
+                    .img-logo{
+                        max-width: 100%;
+                        height:auto;
+                    }
+                }
+                .result-container{
+                    padding:1em 0;
+                    .result-title{
+                        display: block;
+                        font-size:1.4em;
+                        font-weight: 500;
+                    }
+                    .result-location{
+                        display: block;
+                        i{
+                            margin-right:0.6em;
+                            color: map-get($map: $colors, $key: primary);
+                        }
+                    }
+                    .result-description{
+                        display: block;
+                        font-size:0.9em;
+                        font-style: italic;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
 //Carousel
 .ad-temp-1{
     @media (max-width: 768px) {
