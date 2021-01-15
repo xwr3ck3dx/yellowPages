@@ -104,12 +104,13 @@ html,body{
             
         }
     }
-    .ad-temp-1{
-        max-width: 1200px;
-        margin: 0 auto;
-        margin-top:2em;
-    }
     
+    
+}
+.ad-temp-1{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top:2em;
 }
 .content-main{
         max-width: 1200px;
@@ -163,18 +164,7 @@ html,body{
                 
             }
         }
-        .ad-temp-2{
-            float: right;
-            padding:1em;
-            padding-top:0;
-            .img-container{
-                img{
-                    width:100%;
-                    height:auto;
-                }
-                margin-bottom:10px;
-            }
-        }
+        
     }
     
 }
@@ -263,18 +253,19 @@ html,body{
                 }
             }
         }
-        .ad-temp-2{
-            float: right;
-            padding:1em;
-            padding-top:0;
-            .img-container{
-                img{
-                    width:100%;
-                    height:auto;
-                }
-                margin-bottom:10px;
-            }
+        
+}
+.ad-temp-2{
+    float: right;
+    padding:1em;
+    padding-top:0;
+    .img-container{
+        img{
+            width:100%;
+            height:auto;
         }
+        margin-bottom:10px;
+    }
 }
 .details-page{
     .jumbotron{
@@ -285,9 +276,7 @@ html,body{
         max-width: 1200px;
         margin:0 auto;
         margin-top: 2em;
-        .ad-temp-3{
 
-        }
         .listings-container{
             margin-top:2em;
             .listings{
@@ -320,64 +309,65 @@ html,body{
                 }
             }
         }
-        .ad-temp-4{
-            //Slider
-            .img-responsive{
-                width:100%;
-                height:auto;
-            }
-            .carousel-inner,.carousel,.carousel-item,.container,.fill {
-                
-                background-position:center center;
-                background-size:cover;
-            }
-            .slide-wrapper{display:inline;}
-            .slide-wrapper .container{padding:0;}
-            
-            
-            /*------------------------------ vertical bootstrap slider----------------------------*/
-            
-            .carousel-inner> .carousel-item.carousel-item-next ,
-            .carousel-inner > .carousel-item.active.carousel-item-right{ 
-                transform: translate3d(0, 100%, 0); -webkit-transform: translate3d(0, 100%, 0); -ms-transform: translate3d(0, 100%, 0); -moz-transform: translate3d(0, 100%, 0); -o-transform: translate3d(0, 100%, 0);  top: 0;
-                
-            }
-            .carousel-inner > .carousel-item.carousel-item-prev ,
-            .carousel-inner > .carousel-item.active.carousel-item-left{ 
-                transform: translate3d(0,-100%, 0); -webkit-transform: translate3d(0,-100%, 0);  -moz-transform: translate3d(0,-100%, 0);-ms-transform: translate3d(0,-100%, 0); -o-transform: translate3d(0,-100%, 0); top: 0;
-                
-            }
-            .carousel-inner > .carousel-item.next.carousel-item-left ,
-            .carousel-inner > .carousel-item.carousel-item-prev.carousel-item-right ,
-            .carousel-inner > .carousel-item.active{
-                transform:translate3d(0,0,0); -webkit-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);; -moz-transform:translate3d(0,0,0); -o-transform:translate3d(0,0,0); top:0;
-                
-            }
-            
-            /*------------------------------- vertical carousel indicators ------------------------------*/
-            .carousel-indicators{
-                position:absolute;
-                top:0;
-                bottom:0;
-                margin:auto;
-                height:20px;
-                right:10px; left:auto;
-                width:auto;
-                -webkit-transform: rotate(90deg);
-                -moz-transform: rotate(90deg);
-                -ms-transform: rotate(90deg);
-                -o-transform: rotate(90deg);
-                transform: rotate(90deg);
-            }
-            .carousel-indicators li{
-                display:block; margin-bottom:5px; border:1px solid #00a199; 
-                
-            }
-            .carousel-indicators li.active{
-                margin-bottom:5px; background:#00a199;
-                
-            }
-        }
+        
+}
+.ad-temp-4{
+    //Slider
+    .img-responsive{
+        width:100%;
+        height:auto;
+    }
+    .carousel-inner,.carousel,.carousel-item,.container,.fill {
+        
+        background-position:center center;
+        background-size:cover;
+    }
+    .slide-wrapper{display:inline;}
+    .slide-wrapper .container{padding:0;}
+    
+    
+    /*------------------------------ vertical bootstrap slider----------------------------*/
+    
+    .carousel-inner> .carousel-item.carousel-item-next ,
+    .carousel-inner > .carousel-item.active.carousel-item-right{ 
+        transform: translate3d(0, 100%, 0); -webkit-transform: translate3d(0, 100%, 0); -ms-transform: translate3d(0, 100%, 0); -moz-transform: translate3d(0, 100%, 0); -o-transform: translate3d(0, 100%, 0);  top: 0;
+        
+    }
+    .carousel-inner > .carousel-item.carousel-item-prev ,
+    .carousel-inner > .carousel-item.active.carousel-item-left{ 
+        transform: translate3d(0,-100%, 0); -webkit-transform: translate3d(0,-100%, 0);  -moz-transform: translate3d(0,-100%, 0);-ms-transform: translate3d(0,-100%, 0); -o-transform: translate3d(0,-100%, 0); top: 0;
+        
+    }
+    .carousel-inner > .carousel-item.next.carousel-item-left ,
+    .carousel-inner > .carousel-item.carousel-item-prev.carousel-item-right ,
+    .carousel-inner > .carousel-item.active{
+        transform:translate3d(0,0,0); -webkit-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);; -moz-transform:translate3d(0,0,0); -o-transform:translate3d(0,0,0); top:0;
+        
+    }
+    
+    /*------------------------------- vertical carousel indicators ------------------------------*/
+    .carousel-indicators{
+        position:absolute;
+        top:0;
+        bottom:0;
+        margin:auto;
+        height:20px;
+        right:10px; left:auto;
+        width:auto;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+    .carousel-indicators li{
+        display:block; margin-bottom:5px; border:1px solid #00a199; 
+        
+    }
+    .carousel-indicators li.active{
+        margin-bottom:5px; background:#00a199;
+        
+    }
 }
 //Carousel
 .ad-temp-1{
