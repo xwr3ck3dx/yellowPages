@@ -221,6 +221,7 @@ html, body {
 }
 
 .details .detail-content .description .contacts-div {
+  background: #FFFFFF;
   margin-top: 1em;
 }
 
@@ -232,6 +233,7 @@ html, body {
 }
 
 .details .detail-content .description .contacts-div .contacts {
+  padding: 0.3em 1em;
   font-size: 1.3em;
 }
 
@@ -297,16 +299,16 @@ html, body {
           box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 }
 
-.content-bottom .listings-container .listings .listing-items > .col-6 {
+.content-bottom .listings-container .listings .listing-items > .col-md-6 {
   padding: 0.5em 2em;
 }
 
-.content-bottom .listings-container .listings .listing-items > .col-6 li .listing-item {
+.content-bottom .listings-container .listings .listing-items > .col-md-6 li .listing-item {
   color: #0B0B0B;
   font-weight: 500;
 }
 
-.content-bottom .listings-container .listings .listing-items > .col-6 li .listing-item:hover {
+.content-bottom .listings-container .listings .listing-items > .col-md-6 li .listing-item:hover {
   color: #FFCD00;
   text-decoration: none;
   text-shadow: 0px 0px 2px white;
@@ -583,5 +585,37 @@ html, body {
 
 .footer #social-em:hover {
   color: #f39c12 !important;
+}
+
+@media (max-width: 600px) {
+  .content-top {
+    padding: 1em;
+    zoom: 0.9;
+  }
+  .content-top .feature-text > button {
+    margin-top: 2em;
+    font-size: 1.3em;
+    border-radius: 5px;
+  }
+  .search-page .search .search-content .search-results .result .img-container {
+    max-width: 30%;
+    margin: 0 auto;
+  }
+  .search-page .search .search-content .search-results .result .result-container {
+    padding: 0.5em 1em;
+  }
+  .detail-content {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .detail-content .banner .overlay {
+    padding: 2em 4em !important;
+  }
+  .detail-content .banner .overlay .business {
+    zoom: 0.8;
+  }
+  .detail-content .description .contacts-div .contacts {
+    font-size: 1em !important;
+  }
 }
 /*# sourceMappingURL=main.css.map */

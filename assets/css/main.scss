@@ -223,6 +223,7 @@ html,body{
                 }
                 
                 .contacts-div{
+                    background:map-get($map: $colors, $key: third);
                     margin-top:1em;
                     & > .contact-title{
                         font-size:1.4em;
@@ -231,6 +232,7 @@ html,body{
                         text-align: center;
                     }
                     .contacts{
+                        padding:0.3em 1em;
                         font-size:1.3em;
                         span{
                             display: flex;
@@ -288,7 +290,7 @@ html,body{
                     padding: 1em 0em;
                     background:map-get($colors,third);
                     box-shadow:1px 1px 5px fade-out(map-get($colors,secondary), 0.8);
-                    & > .col-6{
+                    & > .col-md-6{
                         padding:0.5em 2em;
                         li{
                             .listing-item{
@@ -540,5 +542,56 @@ html,body{
     }
     #social-em:hover {
         color: #f39c12!important;
+    }
+}
+
+
+@media(max-width:600px){
+    .content-top{
+        padding:1em;
+        zoom:0.9;
+        .feature-text{
+            & > button{
+                margin-top:2em;
+                font-size:1.3em;
+                border-radius:5px;
+            }
+        }
+    }
+    .search-page{
+        .search{
+            .search-content{
+                .search-results{
+                    .result{
+                        .img-container{
+                            max-width:30%;
+                            margin: 0 auto;
+                        }
+                        .result-container{
+                            padding: 0.5em 1em
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .detail-content{
+        margin-top:1em;
+        margin-bottom:1em;
+        .banner{
+            .overlay{
+                padding:2em 4em!important;
+                .business{
+                    zoom:0.8
+                }
+            }
+        }
+        .description{
+            .contacts-div{
+                .contacts{
+                    font-size:1em!important;
+                }
+            }
+        }
     }
 }
